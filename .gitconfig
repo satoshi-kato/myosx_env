@@ -1,0 +1,5 @@
+[user]
+	name = satoshi kato
+	email = s-kato@qri.jp
+[core]
+	excludesfile = /Users/s-kato/.gitignore_global

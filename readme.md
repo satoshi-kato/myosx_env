@@ -42,6 +42,15 @@ homebrew-caskはデフォルトのインストール先が```~/Applications ```�
 今は通常のアプリディレクトリ```/Applications ```になったみたい　　
 
 ## その他
+### npm
+グローバルで使用するタスクランナーは入れておく  
+```
+npm install grunt -g
+npm install gulp -g
+```
+### git
+configとignoreファイルをコピー
+### 設定ファイル
 個人的に必要な設定ファイルもしれっと登録しています。  
 これらを、```cp -a file ~/```すればいい感じになるはず。
 

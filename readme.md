@@ -25,9 +25,7 @@ brew bundle
 #### 上手くいかなくても
 管理者権限があれば基本問題ないと思いますが、パーミッションでエラーになれば表示されるメッセージに従ってコマンドを実行すればなんとかなると思います。
 ```bash:.sh
-sudo chown -R s-kato /usr/local/Cellar
-sudo chown -R s-kato /usr/local/Homebrew
-sudo chown -R s-kato /usr/local/var/homebrew
+sudo chown -R s-kato /usr/local/
 ```
 
 ## 設定の更新作業
@@ -50,6 +48,49 @@ npm install gulp -g
 ```
 ### git
 configとignoreファイルをコピー
+### font 
+http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html
+ダブルクリックでインストール
+- RictyDiminishedDiscord-Bold.ttf
+- RictyDiminishedDiscord-BoldOblique.ttf
+- RictyDiminishedDiscord-Oblique.ttf
+- RictyDiminishedDiscord-Regular.ttf
+### vs code
+英語化する
+[F1] キー -> 「Configure Language」 -> 編集 -> 再起動
+```
+{
+    // VSCode の表示言語を定義します。
+    "locale":"en-US"
+}
+```
+フォントを変更する
+[F1] キー -> 「Open User Settings」 -> 追記 -> （保存で反映）
+```
+    "editor.fontFamily": "Ricty Diminished Discord",
+    "editor.fontSize": 15,
+    "editor.wrappingColumn": 130
+```
+### ssh
+sshkeyを発行する
+（パスフレーズも入れること）
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+### iterm2
+themeを変更する
+http://iterm2colorschemes.com/
+- Earthsong
+- Japanesque
+- ManPage
+- SolarizedDarkHigherContrast(def)
+fontfamilyを変更する（上記でインストールしたやつ）
+- RictyDiminishedDiscord-Regular
+### システム環境設定
+#### キーボード
+ファンクションキーを有効にする
+google日本語入力を登録する
 ### 設定ファイル
 個人的に必要な設定ファイルもしれっと登録しています。  
 これらを、```cp -a file ~/```すればいい感じになるはず。

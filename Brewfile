@@ -39,15 +39,10 @@ cask 'hipchat'
 cask 'intellij-idea'
 cask 'iterm2'
 cask 'java'
-cask 'java7'
 cask 'sketch'
 cask 'slack'
 cask 'sourcetree'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'visual-studio-code'
-mas 'Keynote', id: 409183694
-mas 'Microsoft Remote Desktop', id: 715768417
-mas 'Pages', id: 409201541
 mas 'Xcode', id: 497799835
-mas 'Numbers', id: 409203825
